@@ -1,0 +1,120 @@
+# ========================================
+# Game Network Analyzer - .gitignore
+# ========================================
+
+# ===========================================
+# Organized Reports Structure
+# ===========================================
+game_net_reports/
+
+# ===========================================
+# Generated Reports (Legacy/Root level)
+# ===========================================
+netreport_*.json
+netreport_*.html
+*compare*.html
+diagnostics_*.json
+reports_summary.csv
+
+# ===========================================
+# PCAP Files (Large binary captures)
+# ===========================================
+*.pcap
+*.pcapng
+*.cap
+capture_*.pcapng
+
+# ===========================================
+# Temporary/Test Files
+# ===========================================
+test_*.html
+test_*.json
+temp_*.ps1
+*_temp.*
+*.tmp
+
+# ===========================================
+# Windows System Files
+# ===========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===========================================
+# PowerShell
+# ===========================================
+*.ps1xml
+*.psc1
+*.psm1_*
+
+# ===========================================
+# Visual Studio Code
+# ===========================================
+.vscode/
+*.code-workspace
+.history/
+
+# ===========================================
+# IDEs and Editors
+# ===========================================
+.idea/
+*.sublime-project
+*.sublime-workspace
+*~
+*.swp
+*.swo
+
+# ===========================================
+# Logs and Debug Files
+# ===========================================
+*.log
+logs/
+debug.log
+error.log
+
+# ===========================================
+# OS Generated Files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ===========================================
+# Backup Files
+# ===========================================
+*.bak
+*.backup
+*~
+
+# ===========================================
+# Archives (unless explicitly tracked)
+# ===========================================
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+# ===========================================
+# Documentation Builds
+# ===========================================
+docs/_build/
+site/
+
+# ===========================================
+# Optional: Keep Example Files
+# ===========================================
+# If you want to keep one example PCAP, uncomment:
+# !example_match.pcapng
+# !fortnite_match1.pcapng
+
+# ===========================================
+# Optional: Keep Example Reports
+# ===========================================
+# If you want to keep example reports for documentation:
+# !example_report.json
+# !example_report.html
