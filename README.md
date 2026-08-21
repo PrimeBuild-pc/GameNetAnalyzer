@@ -1,19 +1,19 @@
 <div align="center">
-
-# 🧭 Game Network Analyzer
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%7C%207.x-blue.svg)](https://github.com/PowerShell/PowerShell)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue.svg)](https://www.microsoft.com/windows)
-[![Wireshark](https://img.shields.io/badge/Wireshark-3.0%2B-1679A7.svg)](https://www.wireshark.org/)
-[![GitHub release](https://img.shields.io/github/v/release/PrimeBuild-pc/GameNetAnalyzer?include_prereleases)](https://github.com/PrimeBuild-pc/GameNetAnalyzer/releases)
-[![GitHub issues](https://img.shields.io/github/issues/PrimeBuild-pc/GameNetAnalyzer)](https://github.com/PrimeBuild-pc/GameNetAnalyzer/issues)
-[![GitHub stars](https://img.shields.io/github/stars/PrimeBuild-pc/GameNetAnalyzer)](https://github.com/PrimeBuild-pc/GameNetAnalyzer/stargazers)
-
-**Advanced PowerShell tool for network quality analysis during gaming sessions.**  
-Analyzes PCAP packets or captures live traffic to assess jitter, burst, spike, and provides competitive scoring.
-
-[Features](#-features) • [Installation](#-installation--requirements) • [Usage](#-usage) • [Documentation](#-wireshark-integration---advanced-workflow) • [Contributing](#-contributing)
+  <img src="readme-banner.svg" alt="Game Network Analyzer — PCAP, jitter, spikes and competitive network scoring" width="100%">
+  <p><strong>Advanced PowerShell network-quality analysis for gaming sessions.</strong></p>
+  <p>
+    <a href="https://github.com/PrimeBuild-pc/GameNetAnalyzer/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/PrimeBuild-pc/GameNetAnalyzer?style=plastic&amp;logo=git&amp;logoColor=white"></a>
+    <a href="https://github.com/PrimeBuild-pc/GameNetAnalyzer/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PrimeBuild-pc/GameNetAnalyzer?style=plastic&amp;logo=github"></a>
+    <a href="https://github.com/PrimeBuild-pc/GameNetAnalyzer/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/PrimeBuild-pc/GameNetAnalyzer?style=plastic&amp;logo=github"></a>
+  </p>
+  <p>
+    <a href="https://github.com/PrimeBuild-pc/GameNetAnalyzer/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/PrimeBuild-pc/GameNetAnalyzer?include_prereleases&amp;style=plastic&amp;logo=github"></a>
+    <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2ea44f?style=plastic"></a>
+    <a href="https://github.com/PowerShell/PowerShell"><img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5.1%20%7C%207.x-5391FE?style=plastic&amp;logo=powershell&amp;logoColor=white"></a>
+    <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=plastic&amp;logo=windows&amp;logoColor=white">
+    <a href="https://www.wireshark.org/"><img alt="Wireshark 3 or newer" src="https://img.shields.io/badge/Wireshark-3.0%2B-1679A7?style=plastic&amp;logo=wireshark&amp;logoColor=white"></a>
+  </p>
+  <p><a href="#-features">Features</a> · <a href="#-installation--requirements">Installation</a> · <a href="#-usage">Usage</a> · <a href="#-wireshark-integration---advanced-workflow">Documentation</a> · <a href="#-contributing">Contributing</a></p>
 
 </div>
 
